@@ -9,8 +9,8 @@ public class Ejercicio01 {
         boolean independencia=false;
         double presupuesto=12200;
         float longitud=16.34f;
-//    var suma = gasol+marianico;
-        System.out.println();
+        var suma = gasol+marianico;
+        System.out.println(suma);
 
     }
 
