@@ -44,8 +44,15 @@ public class Ejercicio02 {
          */
         i=1;
         while (i<=10){
-            System.out.println("Vuelta numero: " + i);
             i++;
+            System.out.println("Vuelta numero: " + i);
+            if (i==2){
+                i++;
+                continue;
+            }
+            if (i==5){
+                break;
+            }
         }
     }
 }
