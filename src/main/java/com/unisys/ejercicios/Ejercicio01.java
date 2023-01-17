@@ -1,7 +1,5 @@
 package com.unisys.ejercicios;
-
 public class Ejercicio01 {
-
     public static void main(String[] args) {
         int numero = 10;
         short marianico = 12;
@@ -18,6 +16,4 @@ public class Ejercicio01 {
         System.out.println("longitud = " + longitud);
         System.out.println("suma = " + suma);
     }
-
-
 }
