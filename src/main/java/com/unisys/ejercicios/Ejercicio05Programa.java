@@ -1,14 +1,14 @@
 package com.unisys.ejercicios;
 
-public class Programa {
+public class Ejercicio05Programa {
     public static void main(String[] args) {
-        Perro toby = new Perro();
+        Ejercicio05Perro toby = new Ejercicio05Perro();
         toby.raza="Terrier";
-        Perro otto = new Perro();
+        Ejercicio05Perro otto = new Ejercicio05Perro();
         otto.raza="Pastor Alemán";
         System.out.println(toby.raza);
         System.out.println(otto.raza);
-        Perro fluky = new Perro("Pastor de aguas");
+        Ejercicio05Perro fluky = new Ejercicio05Perro("Pastor de aguas");
         fluky.setRaza("Bulldog");
         System.out.println(fluky.getRaza());
         System.out.println(toby.toString());

@@ -1,12 +1,12 @@
 package com.unisys.ejercicios;
 
-public class Perro {
+public class Ejercicio05Perro {
     public String raza;
 
-    public Perro() {
+    public Ejercicio05Perro() {
     }
 
-    public Perro(String raza) {
+    public Ejercicio05Perro(String raza) {
         this.raza = raza;
     }
 
