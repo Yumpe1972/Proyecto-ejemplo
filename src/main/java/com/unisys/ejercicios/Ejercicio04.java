@@ -9,9 +9,11 @@ public class Ejercicio04 {
         System.out.println(saludo.toLowerCase());
         System.out.println(saludo.indexOf("l"));
         String saludo2 ="Adios";
-        if (saludo.equals(saludo2))
+        if (saludo.equals(saludo2)){
             System.out.println("Son iguales");
-        else
+        }
+        else {
             System.out.println("NO son iguales");
+        }
     }
 }
