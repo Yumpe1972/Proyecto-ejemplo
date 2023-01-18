@@ -11,8 +11,8 @@ public class Ejercicio05Programa {
         Ejercicio05Perro fluky = new Ejercicio05Perro("Pastor de aguas");
         fluky.setRaza("Bulldog");
         System.out.println(fluky.getRaza());
-        System.out.println(toby.toString());
-        System.out.println(otto.toString());
-        System.out.println(fluky.toString());
+        System.out.println(toby);
+        System.out.println(otto);
+        System.out.println(fluky);
     }
 }
