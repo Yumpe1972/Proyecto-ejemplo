@@ -1,22 +1,20 @@
 package com.unisys.ejercicios.herencias;
 
-import java.util.Arrays;
-
 public class Jefe extends Empleado{
-    public Empleado miembroGrupo[];
+    public Integer miembrosGrupo;
 
-    public Empleado[] getMiembroGrupo() {
-        return miembroGrupo;
+    public Integer getMiembrosGrupo() {
+        return miembrosGrupo;
     }
 
-    public void setMiembroGrupo(Empleado[] miembroGrupo) {
-        this.miembroGrupo = miembroGrupo;
+    public void setMiembrosGrupo(Integer miembrosGrupo) {
+        this.miembrosGrupo = miembrosGrupo;
     }
 
     @Override
     public String toString() {
         return "Jefe{" +
-                "miembroGrupo=" + Arrays.toString(miembroGrupo) +
+                "miembrosGrupo=" + miembrosGrupo +
                 ", sueldo=" + sueldo +
                 ", cargo='" + cargo + '\'' +
                 ", nombre='" + nombre + '\'' +
@@ -24,4 +22,5 @@ public class Jefe extends Empleado{
                 ", tlf=" + tlf +
                 '}';
     }
+
 }

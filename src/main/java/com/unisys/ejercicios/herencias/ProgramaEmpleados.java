@@ -13,11 +13,16 @@ public class ProgramaEmpleados {
         numero1.setSueldo(190000);
         System.out.println("Nombre empleados: " + numero1.getNombre() + ", " + numero2.getNombre());
         Jefe jefe1 = new Jefe();
-
+        System.out.println(jefe1);
+        jefe1.setNombre("MP");
+        jefe1.cargo = "Brown dispatcher";
+        jefe1.sueldo = 10000;
+        jefe1.dni="11111111A";
+        jefe1.tlf=666999234;
         System.out.println(jefe1);
         Currito currito1 = new Currito();
         System.out.println(currito1);
-
+        currito1.setJefe("FC");
+        System.out.println(currito1);
     }
-
 }

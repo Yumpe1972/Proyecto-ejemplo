@@ -1,14 +1,23 @@
 package com.unisys.ejercicios.herencias;
 
-import java.util.Arrays;
-
 public class Currito extends Empleado {
-    public Empleado jefes[];
+    public String jefe;
+
+
+    public String getJefe() {
+        return jefe;
+    }
+
+    public void setJefe(String jefe) {
+        this.jefe = jefe;
+    }
+
+
 
     @Override
     public String toString() {
         return "Currito{" +
-                "jefes=" + Arrays.toString(jefes) +
+                "jefes=" + jefe +
                 ", sueldo=" + sueldo +
                 ", cargo='" + cargo + '\'' +
                 ", nombre='" + nombre + '\'' +
