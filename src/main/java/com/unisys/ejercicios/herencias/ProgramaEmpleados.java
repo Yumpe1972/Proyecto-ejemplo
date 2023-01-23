@@ -25,5 +25,8 @@ public class ProgramaEmpleados {
         currito1.setJefe("FC");
         currito1.sueldo=15000;
         System.out.println(currito1);
+        currito1.setNombre("Mike");
+        System.out.println(currito1.getNombre());
+        System.out.println(jefe1.sueldo);
     }
 }

@@ -2,7 +2,7 @@ package com.unisys.ejercicios.herencias;
 
 public class Empleado extends Persona{
 
-    public Integer sueldo;
+    protected Integer sueldo;
     public String cargo;
 
     public Empleado(String nombre, String dni, Integer tlf, Integer sueldo, String cargo) {
@@ -38,7 +38,7 @@ public class Empleado extends Persona{
         return "Empleado{" +
                 "sueldo=" + sueldo +
                 ", cargo='" + cargo + '\'' +
-                ", nombre='" + nombre + '\'' +
+                ", nombre='" + getNombre() + '\'' +
                 ", dni='" + dni + '\'' +
                 ", tlf=" + tlf +
                 '}';

@@ -1,7 +1,7 @@
 package com.unisys.ejercicios.herencias;
 
 public class Persona {
-    public String nombre;
+    private String nombre;
     public String dni;
     public Integer tlf;
 

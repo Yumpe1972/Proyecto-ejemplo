@@ -20,7 +20,7 @@ public class Currito extends Empleado {
                 "jefes=" + jefe +
                 ", sueldo=" + sueldo +
                 ", cargo='" + cargo + '\'' +
-                ", nombre='" + nombre + '\'' +
+                ", nombre='" + getNombre() + '\'' +
                 ", dni='" + dni + '\'' +
                 ", tlf=" + tlf +
                 '}';

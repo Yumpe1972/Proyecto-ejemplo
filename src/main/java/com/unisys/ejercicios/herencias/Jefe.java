@@ -17,7 +17,7 @@ public class Jefe extends Empleado{
                 "miembrosGrupo=" + miembrosGrupo +
                 ", sueldo=" + sueldo +
                 ", cargo='" + cargo + '\'' +
-                ", nombre='" + nombre + '\'' +
+                ", nombre='" + getNombre() + '\'' +
                 ", dni='" + dni + '\'' +
                 ", tlf=" + tlf +
                 '}';
