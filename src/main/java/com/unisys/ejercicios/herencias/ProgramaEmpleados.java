@@ -23,6 +23,7 @@ public class ProgramaEmpleados {
         Currito currito1 = new Currito();
         System.out.println(currito1);
         currito1.setJefe("FC");
+        currito1.sueldo=15000;
         System.out.println(currito1);
     }
 }
