@@ -2,24 +2,27 @@ package com.unisys.ejercicios.colecciones;
 
 import java.io.Serializable;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 public class Ordenador implements Serializable {
     private String marca;
     private String modelo;
 
-    private Set<Pieza> piezas;
+    //private Set<Pieza> piezas;
+    private List<Pieza> listadopieza;
 
-    public Ordenador(String marca, String modelo, Set<Pieza> piezas) {
+    public Ordenador(String marca, String modelo, List<Pieza> listadopieza) {
         this.marca = marca;
         this.modelo = modelo;
-        this.piezas = piezas;
+        this.listadopieza = listadopieza;
     }
 
     public Ordenador() {
         this.marca="";
         this.modelo="";
-        this.piezas=new HashSet<>();
+//        this.listadopieza = new List<Pieza> for (Pieza pieza : listadopieza) {
+
     }
 
     public String getMarca() {
@@ -37,12 +40,12 @@ public class Ordenador implements Serializable {
     public void setModelo(String modelo) {
         this.modelo = modelo;
     }
-    public Set<Pieza> getPiezas() {
-        return piezas;
+    public List<Pieza> getPiezas() {
+        return listadopieza;
     }
 
-    public void setPiezas(Set<Pieza> piezas) {
-        this.piezas = piezas;
+    public void setPiezas(List<Pieza> listadopieza) {
+        this.listadopieza = listadopieza;
     }
     @Override
     public String toString() {
